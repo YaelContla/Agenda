@@ -1,0 +1,24 @@
+<br>
+  <h3>Contactos guardados</h3>
+
+
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Telefono</th>
+        <th scope="col">Email</th>
+        <th scope="col">Cumpleaños</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of datos; let i = index">
+        <th scope="row">{{i+1}}</th>
+        <td>{{item.nombre}}</td>
+        <td>{{item.telefono}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.fechaNacimiento}}</td>
+      </tr>
+    </tbody>
+  </table>
