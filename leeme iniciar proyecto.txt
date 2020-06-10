@@ -1,0 +1,5 @@
+-----------------------------------Importante-------------------------------------
+Descargar los archivos en una carpeta, abrir la ventana de comandos (cmd), 
+dirigirse a la carpeta con "cd" y la dirección de la carpeta,
+ colocer el comando npm install, cuando se descarguen los paquetes, 
+se levanta el servidor con "ng serve -o"
